@@ -28,7 +28,7 @@ export class TareasComponent implements OnInit {
 
   eliminarTarea(index: number) {
     // Eliminar la tarea de la lista
-    this.listTareas.splice(index);
+    this.listTareas.splice(index, 1);
   }
 
   actualizarTarea(index: number, tarea: Tarea) {
